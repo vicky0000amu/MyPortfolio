@@ -1,0 +1,167 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    color: #76A787;
+}
+
+header{
+    margin-top: 20px;
+    position: fixed;
+    
+    
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    font-size: 3rem;
+    color: #55356E;1    
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+nav a{
+    font-size: 1.8rem;
+    color: #76A787;
+    margin-left: 4rem;
+    
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+    color: #55356E;
+    border-bottom: 3px solid #55356E;
+}
+
+{
+    nav{
+        position: absolute;
+        
+        
+        
+        border-left: 3px solid #7091E6;
+        border-bottom: 3px solid #7091E6;
+        
+        padding: 1rem solid;
+        background-color: #7091E6;
+        
+    }
+
+}
+
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #D6F5FF;
+}
+
+.home .home-content h1{
+    font-size: 6rem;
+    font-weight: 700;
+    
+}
+
+span{
+    color: #55356E;
+}
+
+.home-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.home-content p{
+    font-size: 1.6rem;
+}
+
+
+
+.home-img img{
+    
+    width: 32vw;
+    
+    
+    cursor: pointer;
+    
+}
+
+
+
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid #76A787;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: #55356E
+}
+
+.social-icons a:hover{
+    color: #D6F5FF;
+    transform: scale(1.3);
+    background-color: #76A787;
+    box-shadow:0 0 25px #55356E;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: #55356E;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #76A787;
+    
+    font-weight: 600;
+    border: 2px solid #76A787;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: #76A787;
+    color: #D6F5FF;
+    box-shadow: 0 0 25px #55356E;
+}
